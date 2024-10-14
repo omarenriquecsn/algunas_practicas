@@ -12,13 +12,15 @@ body{
     justify-content: center;
     align-items: center;
     width: 10cm;
-    height: 15cm;
+    height: 17cm;
     background-color: grey;
     border-radius: 20px;
+    padding-top: 0.3cm;
+    padding-bottom: 0.3cm;
 }
-.botones{
+#botones{
 
-    height: 10cm;
+    height: 12cm;
     width: 90%;
     display: grid;
     grid-template: 1fr 1fr 1fr 1fr/ 1fr 1fr 1fr 1fr;
@@ -63,4 +65,13 @@ body{
     border-radius: 10px;}
     
 #botonme{border-radius: 10px;
+}
+#botonesac{
+    width: 90%;
+
+}
+#ac{
+    border-radius: 10px;
+    width: 49.4%;
+    height: 50px;
 }
